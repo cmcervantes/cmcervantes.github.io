@@ -1,0 +1,53 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <p>
+    <div class="archive__item-title" itemprop="headline">
+    <strong>{{ include.content }}. {{ title }}</strong>
+    </div>
+    {% for auth in post.authors %}
+      {% if auth == 'Cervantes' %}
+        <u><i>{{ auth }}</i></u>{% unless forloop.last %},{% endunless %}
+      {% else %}
+        {{ auth }}{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+      <br/>
+      {{ post.venue }}
+      <br/>
+      <table style="border:none">
+        <tr style="border:none">
+          {% if post.paperurl %}
+          <td style="width:30px;border:none">
+            <a href="{{ post.paperurl }}">
+              <img src="{{ base_path }}/images/paper_icon.png" style="width:20px">
+            </a>
+          </td>
+          {% endif %}
+          {% if post.citation %}
+          <td style="width:30px;border:none">
+            {% include copy-cite-header.html content=post.citation %}
+          </td>
+          {% endif %}
+          {% if post.arxivurl %}
+          <td style="width:30px;border:none">
+            <a href="{{ post.arxivurl }}">
+              <img src="{{ base_path }}/images/arxiv_icon.png" style="width:20px">
+            </a>
+          </td>
+          {% endif %}
+          <td style="border:none"></td>
+        </tr>
+      </table>
+    </p>
+
+  </article>
+</div>
