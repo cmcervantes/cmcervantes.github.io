@@ -9,6 +9,8 @@ year: 2018
 role: "Graduate Researcher"
 ---
 
+<p>{{ page.year }} &mdash; <i>{{ page.role }}</i></p>
+
 This thesis focuses on the task of _entity-based scene understanding_: automatically identifying the entities 
 in a visual scene as described by multiple captions. This task subsumes coreference resolution (e.g., linking 
 the appropriate text spans in "a man and a dog on a beach" and "a person and their pet on the shore") and grounding

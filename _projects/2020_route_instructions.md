@@ -10,6 +10,8 @@ year: 2020
 role: "Principal Investigator"
 ---
 
+<p>{{ page.year }} &mdash; <i>{{ page.role }}</i></p>
+
 Mapping technologies have traditionally relied on moving sensors through space along predefined paths (e.g., driving 
 a car equipped with cameras and lidar along a road), but this approach has limited utility in emergencies (when 
 predefined paths may have changed without warning), in parts of the developing world where infrastructure is not 
