@@ -8,13 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior data scientist and assistant section supervisor at the Johns Hopkins 
-Applied Physics Laboratory, working at the intersection of information extraction (IE) 
-and knowledge representation. My focus is in developing natural language processing 
-(NLP) methods for understanding semantics: extracting knowledge from text and 
-integrating those extractions with knowledge graphs (KGs).
+I am a senior data scientist and the Section Supervisor for an information extraction (IE) section
+at the Johns Hopkins University Applied Physics Laboratory, working at the intersection of artificial 
+intelligence / machine learning (AI/ML) and knowledge representation. My current research interests include 
+trustworthy AI, the intersection of NLP, LLMs, and knowledge graphs, and healthcare analytics.
 
-My research interests include entity extraction, relation and event extraction,
-relevance ranking, knowledge graph embedding and completion, ontology learning, 
-grounding, scene understanding, co-reference resolution, and healthcare analytics
-(particularly related to pulmonary health).
