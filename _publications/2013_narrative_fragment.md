@@ -7,6 +7,6 @@ authors:
     - Cervantes
     - Fu
 venue: 'Advances in Cognitive Systems (ACS)'
-paperurl: '/files/2013_cervantes_narrative.pdf'
+paperurl: 'http://www.cogsys.org/proceedings/2013/paper-2013-16.pdf'
 citation: 'Cervantes, C. & Fu, W. (2013). &quot;Narrative Fragment Creation: An Approach for Learning Narrative Knowledge&quot; Advances in Cognitive Systems.'
 ---
