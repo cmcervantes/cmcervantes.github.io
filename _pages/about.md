@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior data scientist and the Section Supervisor for an information extraction (IE) section
-at the Johns Hopkins University Applied Physics Laboratory, working at the intersection of artificial 
-intelligence / machine learning (AI/ML) and knowledge representation. My current research interests include 
-trustworthy AI, the intersection of NLP, LLMs, and knowledge graphs, and healthcare analytics.
+AI leader, researcher, and engineer with a track record of managing teams, developing innovative solutions, and advancing AI from idea to impact. Passionate about tackling unsolved AI challenges, mentoring teams, publishing research, and driving strategic direction.
+
+My current research interests include trustworthy AI, the intersection of NLP, LLMs, and knowledge graphs, and healthcare analytics.
 
