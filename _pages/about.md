@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-AI leader, researcher, and engineer with a track record of managing teams, developing innovative solutions, and advancing AI from idea to impact. Passionate about tackling unsolved AI challenges, mentoring teams, publishing research, and driving strategic direction.
-
-My current research interests include trustworthy AI, the intersection of NLP, LLMs, and knowledge graphs, and healthcare analytics.
-
+Senior AI researcher and leader specializing in information extraction, knowledge graph use and 
+construction, and LLM applications. Currently section supervisor (manager of 6), project manager, and 
+technical lead (supervising 10+) on internal research and sponsor-facing projects. 15+ years 
+combined research and engineering experience, including publishing peer-reviewed research, 
+mentoring staff, and driving strategic direction.
